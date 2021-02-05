@@ -22,6 +22,7 @@
 		08C6ADEF25C3A89C00EDA9BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C6ADEE25C3A89C00EDA9BC /* ViewController.swift */; };
 		08C6ADF425C3A89E00EDA9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C6ADF325C3A89E00EDA9BC /* Assets.xcassets */; };
 		08C6ADF725C3A89E00EDA9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C6ADF525C3A89E00EDA9BC /* LaunchScreen.storyboard */; };
+		AF699D5225CD7D7E00B4BF27 /* LoginDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF699D5125CD7D7E00B4BF27 /* LoginDesignableView.swift */; };
 		AFE71ECF25CD3EE200DA64CB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE71ECE25CD3EE200DA64CB /* Montserrat-Bold.ttf */; };
 		AFE71ED225CD3F0200DA64CB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE71ED125CD3F0200DA64CB /* Montserrat-SemiBold.ttf */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		08C6ADF325C3A89E00EDA9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C6ADF625C3A89E00EDA9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C6ADF825C3A89E00EDA9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF699D5125CD7D7E00B4BF27 /* LoginDesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDesignableView.swift; sourceTree = "<group>"; };
 		AFE71ECE25CD3EE200DA64CB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		AFE71ED125CD3F0200DA64CB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				08ACB51725CB47E5005469E9 /* Profile.storyboard */,
 				08ACB51A25CB480F005469E9 /* Schedule.storyboard */,
 				08ACB51D25CB482A005469E9 /* Enrollment.storyboard */,
+				AF699D5125CD7D7E00B4BF27 /* LoginDesignableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				08C6ADEB25C3A89C00EDA9BC /* AppDelegate.swift in Sources */,
 				08ACB53A25CB5300005469E9 /* LoginViewController.swift in Sources */,
 				08ACB54625CB5358005469E9 /* ScheduleViewController.swift in Sources */,
+				AF699D5225CD7D7E00B4BF27 /* LoginDesignableView.swift in Sources */,
 				08ACB53E25CB5339005469E9 /* UserOptionsViewController.swift in Sources */,
 				08C6ADED25C3A89C00EDA9BC /* SceneDelegate.swift in Sources */,
 				08ACB54225CB534B005469E9 /* ProfileViewController.swift in Sources */,
