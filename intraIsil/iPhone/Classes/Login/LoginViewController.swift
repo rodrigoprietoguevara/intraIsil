@@ -9,10 +9,22 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    
+    @IBOutlet weak var textTitleLabel: UILabel!
+    @IBOutlet weak var userLabel: UILabel!
+    @IBOutlet weak var passwordLabel: UILabel!
+    @IBOutlet weak var textButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // add custom fonts
+        
+        textTitleLabel.font = UIFont(name: "Montserrat-Bold", size: 18)
+        userLabel.font = UIFont(name: "Montserrat-Bold", size: 18)
+        passwordLabel.font = UIFont(name: "Montserrat-Bold", size: 18)
+        textButton.titleLabel!.font = UIFont(name: "Montserrat-Bold", size: 20)
     }
     
 
