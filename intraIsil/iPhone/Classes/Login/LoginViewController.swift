@@ -9,11 +9,34 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    
+    @IBOutlet weak var textTitleLabel: UILabel!
+    @IBOutlet weak var userLabel: UILabel!
+    @IBOutlet weak var passwordLabel: UILabel!
+    @IBOutlet weak var textButton: UIButton!
+    
+    @IBOutlet weak var inputDNI: UITextField!
+    @IBOutlet weak var inputPassword: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        // add custom fonts
+        
+        textTitleLabel.font = UIFont(name: "Montserrat-Bold", size: 22)
+        userLabel.font = UIFont(name: "Montserrat-Bold", size: 18)
+        passwordLabel.font = UIFont(name: "Montserrat-Bold", size: 18)
+        textButton.titleLabel!.font = UIFont(name: "Montserrat-Bold", size: 20)
+        
+        /*
+        inputDNI.borderStyle = .none
+        inputDNI.layer.cornerRadius = 25.0
+        inputDNI.layer.masksToBounds = true
+        inputPassword.borderStyle = .none
+        inputPassword.layer.cornerRadius = 25.0
+        inputPassword.layer.masksToBounds = true
+         */
+     }
     
 
     /*
