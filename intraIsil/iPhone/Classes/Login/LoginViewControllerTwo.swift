@@ -1,19 +1,20 @@
 //
-//  LoginViewController.swift
+//  LoginViewControllerTwo.swift
 //  intraIsil
 //
-//  Created by kerwin Joel on 2/3/21.
+//  Created by user179028 on 2/5/21.
 //
+
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewControllerTwo: UIViewController {
 
     
     @IBOutlet weak var textTitleLabel: UILabel!
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var passwordLabel: UILabel!
-    @IBOutlet weak var textButton: UIButton! 
+    @IBOutlet weak var textButton: UIButton!
     @IBOutlet weak var inputDNI: UITextField!
     @IBOutlet weak var inputPassword: UITextField!
     
@@ -37,8 +38,8 @@ class LoginViewController: UIViewController {
          */
      }
     
-    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
-            print("this is unwinding")
+    @IBAction func clickBtnBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
 
     /*
