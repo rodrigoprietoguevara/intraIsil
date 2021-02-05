@@ -34,7 +34,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Login</string>
+					<string>UserOptions</string>
 				</dict>
 			</array>
 		</dict>
@@ -42,7 +42,7 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
-	<string>Login</string>
+	<string>UserOptions</string>
 	<key>UIMainStoryboardFile</key>
 	<string>UserOptions</string>
 	<key>UIRequiredDeviceCapabilities</key>

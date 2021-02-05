@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08ACB51125CB3EE9005469E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACB51025CB3EE9005469E9 /* Login.storyboard */; };
 		08ACB51525CB47C1005469E9 /* UserOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACB51425CB47C1005469E9 /* UserOptions.storyboard */; };
 		08ACB51825CB47E5005469E9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACB51725CB47E5005469E9 /* Profile.storyboard */; };
 		08ACB51B25CB480F005469E9 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACB51A25CB480F005469E9 /* Schedule.storyboard */; };
@@ -17,6 +16,9 @@
 		08ACB54225CB534B005469E9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACB54125CB534B005469E9 /* ProfileViewController.swift */; };
 		08ACB54625CB5358005469E9 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACB54525CB5358005469E9 /* ScheduleViewController.swift */; };
 		08ACB54A25CB5368005469E9 /* EnrollmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACB54925CB5368005469E9 /* EnrollmentViewController.swift */; };
+		08ACB55425CDCF98005469E9 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACB55325CDCF98005469E9 /* CourseViewController.swift */; };
+		08ACB55725CDDFE5005469E9 /* ListCurseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ACB55625CDDFE5005469E9 /* ListCurseViewController.swift */; };
+		08ACB55A25CDEA22005469E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ACB55925CDEA22005469E9 /* Login.storyboard */; };
 		08C6ADEB25C3A89C00EDA9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C6ADEA25C3A89C00EDA9BC /* AppDelegate.swift */; };
 		08C6ADED25C3A89C00EDA9BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C6ADEC25C3A89C00EDA9BC /* SceneDelegate.swift */; };
 		08C6ADEF25C3A89C00EDA9BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C6ADEE25C3A89C00EDA9BC /* ViewController.swift */; };
@@ -31,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		08ACB50D25CB3E7E005469E9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../../../../Documents/arquitectura/Sesion06/Sesion06/iPhone/Resources/Colors.xcassets; sourceTree = "<group>"; };
-		08ACB51025CB3EE9005469E9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		08ACB51425CB47C1005469E9 /* UserOptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserOptions.storyboard; sourceTree = "<group>"; };
 		08ACB51725CB47E5005469E9 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		08ACB51A25CB480F005469E9 /* Schedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
@@ -41,6 +42,9 @@
 		08ACB54125CB534B005469E9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		08ACB54525CB5358005469E9 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		08ACB54925CB5368005469E9 /* EnrollmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentViewController.swift; sourceTree = "<group>"; };
+		08ACB55325CDCF98005469E9 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		08ACB55625CDDFE5005469E9 /* ListCurseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurseViewController.swift; sourceTree = "<group>"; };
+		08ACB55925CDEA22005469E9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		08C6ADE725C3A89C00EDA9BC /* intraIsil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intraIsil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C6ADEA25C3A89C00EDA9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C6ADEC25C3A89C00EDA9BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,11 +110,11 @@
 		08ACB50325CB3CD6005469E9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				08ACB51025CB3EE9005469E9 /* Login.storyboard */,
 				08ACB51425CB47C1005469E9 /* UserOptions.storyboard */,
 				08ACB51725CB47E5005469E9 /* Profile.storyboard */,
 				08ACB51A25CB480F005469E9 /* Schedule.storyboard */,
 				08ACB51D25CB482A005469E9 /* Enrollment.storyboard */,
+				08ACB55925CDEA22005469E9 /* Login.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				08ACB53D25CB5339005469E9 /* UserOptionsViewController.swift */,
+				08ACB55325CDCF98005469E9 /* CourseViewController.swift */,
+				08ACB55625CDDFE5005469E9 /* ListCurseViewController.swift */,
 			);
 			path = UserOptions;
 			sourceTree = "<group>";
@@ -269,10 +275,10 @@
 				08ACB51825CB47E5005469E9 /* Profile.storyboard in Resources */,
 				08C6ADF425C3A89E00EDA9BC /* Assets.xcassets in Resources */,
 				AFE71ECF25CD3EE200DA64CB /* Montserrat-Bold.ttf in Resources */,
-				08ACB51125CB3EE9005469E9 /* Login.storyboard in Resources */,
 				AFE71ED225CD3F0200DA64CB /* Montserrat-SemiBold.ttf in Resources */,
 				08ACB51E25CB482A005469E9 /* Enrollment.storyboard in Resources */,
 				08ACB51B25CB480F005469E9 /* Schedule.storyboard in Resources */,
+				08ACB55A25CDEA22005469E9 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +293,9 @@
 				AF699D5A25CDAD7200B4BF27 /* LoginViewControllerTwo.swift in Sources */,
 				08C6ADEF25C3A89C00EDA9BC /* ViewController.swift in Sources */,
 				08C6ADEB25C3A89C00EDA9BC /* AppDelegate.swift in Sources */,
+				08ACB55725CDDFE5005469E9 /* ListCurseViewController.swift in Sources */,
 				08ACB53A25CB5300005469E9 /* LoginViewController.swift in Sources */,
+				08ACB55425CDCF98005469E9 /* CourseViewController.swift in Sources */,
 				08ACB54625CB5358005469E9 /* ScheduleViewController.swift in Sources */,
 				AF699D5225CD7D7E00B4BF27 /* LoginDesignableView.swift in Sources */,
 				AF699D5E25CDAD8500B4BF27 /* LoginViewControllerThree.swift in Sources */,
