@@ -13,8 +13,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var textTitleLabel: UILabel!
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var passwordLabel: UILabel!
-    @IBOutlet weak var textButton: UIButton!
-    
+    @IBOutlet weak var textButton: UIButton! 
     @IBOutlet weak var inputDNI: UITextField!
     @IBOutlet weak var inputPassword: UITextField!
     
@@ -38,6 +37,9 @@ class LoginViewController: UIViewController {
          */
      }
     
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
+            print("this is unwinding")
+    }
 
     /*
     // MARK: - Navigation
